@@ -75,10 +75,8 @@ Mobil cihazınızın bilgisayarınızdaki sunucuya (Backend) erişebilmesi için
 
 1.  Bilgisayarınızın IP adresini öğrenin (Windows'ta `ipconfig`, Mac'te `ifconfig` komutu ile). Örn: `192.168.1.35`
 2.  Proje içinde `mobile/services/api.js` dosyasını açın.
-3.  `baseURL` satırını kendi IP adresinizle güncelleyin:
-    ```javascript
-    // ÖRNEK YAPILANDIRMA
-    const baseURL = '[http://192.168.1.35:5000/api](http://192.168.1.35:5000/api)';
+3.  `baseURL` satırını kendi IP adresinizle güncelleyin.
+
 
     ### Alternatif Bağlantı Yöntemi: USB (Tethering)
 Eğer Wi-Fi ağında kısıtlama varsa (Örn: Yurt/Kampüs Wi-Fi) veya bağlantı stabil değilse, uygulamayı **USB Kablosu** ile daha kararlı çalıştırabilirsiniz:
@@ -86,7 +84,7 @@ Eğer Wi-Fi ağında kısıtlama varsa (Örn: Yurt/Kampüs Wi-Fi) veya bağlant�
 1.  Telefonunuzu USB kablosu ile bilgisayara bağlayın.
 2.  Telefondan **Ayarlar > Bağlantı Paylaşımı > USB Bağlanıyor (USB Tethering)** seçeneğini aktif edin.
 3.  Bilgisayarınızda `ipconfig` (Windows) komutunu çalıştırın.
-4.  Ethernet/USB adaptörünün verdiği yeni IP adresini (Genellikle `192.168.x.x` farklı bir bloktan olur) `api.js` dosyasındaki `baseURL` kısmına yazın.
+4.  Ethernet/USB adaptörünün verdiği yeni IP adresini `api.js` dosyasındaki `baseURL` kısmına yazın.
     ```
 
 #### Uygulamayı Başlatma
