@@ -21,7 +21,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları sırası
 ### Ön Hazırlıklar 
 Projeyi çalıştırmadan önce bilgisayarınızda şunların kurulu olduğundan emin olun:
 * **Node.js** (v14 veya üzeri)
-* **MySQL Veritabanı** (XAMPP veya yerel MySQL servisi)
+* **PostgreSQL Veritabanı** 
 * **Expo Go** (Mobil uygulamayı test etmek için telefona yüklü olmalı)
 * **Git**
 
@@ -30,7 +30,7 @@ Projeyi çalıştırmadan önce bilgisayarınızda şunların kurulu olduğundan
 ### Veritabanı ve Backend Kurulumu
 Sistemin beyni olan sunucuyu (API) başlatmadan istemciler (Web/Mobil) veri çekemez.
 
-1.  **MySQL Servisini Başlatın:** XAMPP Control Panel'den `Apache` ve `MySQL` servislerini "Start" konumuna getirin.
+1.  **PostgreSQL Servisini Başlatın:**  `PostgreSQL` servisini "Start" konumuna getirin.
 2.  **Terminali Açın:** Proje ana dizininde bir terminal açın ve Backend klasörüne geçiş yapın:
     ```bash
     cd backend
